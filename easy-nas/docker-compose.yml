@@ -3,7 +3,7 @@ version: '2.0'
 services:
   easy-nas-server:
     restart: unless-stopped
-    image: easy-nas/easy-nas-server:0.0.3
+    image: llysrv/easy-nas-server:0.0.3
     ports:
       - 8888:8888
       - 2222:2222
